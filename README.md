@@ -1,8 +1,12 @@
 # AssertIdentity
 
+![](https://github.com/newaperio/assert_identity/workflows/CI/badge.svg)
+
 ExUnit assertions for comparing data structures by identity.
 
 ## Installation
+
+AssertIdentity is available on [Hex](https://hex.pm/packages/assert_identity).
 
 The package can be installed by adding `assert_identity` to your list of
 dependencies in `mix.exs`:
@@ -17,7 +21,7 @@ end
 
 ## Usage
 
-Check the [documentation](https://hexdocs.pm/assert_ids_match) for more details.
+Check the [documentation](https://hexdocs.pm/assert_identity) for more details.
 
 `AssertIdentity` is designed to be used with ExUnit. It provides assertions to
 check that two inputs have the same identity. This is useful, for example, when
