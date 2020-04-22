@@ -23,9 +23,9 @@ end
 
 Check the [documentation](https://hexdocs.pm/assert_identity) for more details.
 
-`AssertIdentity` is designed to be used with ExUnit. It provides assertions to
+AssertIdentity is designed to be used with ExUnit. It provides assertions to
 check that two inputs have the same identity. This is useful, for example, when
-dealing with Ecto structs which may not be strictly equivalent due to e.g.
+dealing with Ecto structs which may not be strictly equivalent due to, e.g.
 association preloading.
 
 For convenience, you can import the helpers in your test case:
