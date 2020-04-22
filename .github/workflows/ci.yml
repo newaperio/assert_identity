@@ -2,9 +2,6 @@ name: CI
 
 on: [push, pull_request]
 
-env:
-  CACHE_VERSION: 1
-
 jobs:
   test:
     runs-on: ubuntu-latest
