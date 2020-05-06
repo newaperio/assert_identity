@@ -14,7 +14,7 @@ dependencies in `mix.exs`:
 ```elixir
 def deps do
   [
-    {:assert_identity, "~> 0.1.0"}
+    {:assert_identity, "~> 0.1.0", only: :test}
   ]
 end
 ```
